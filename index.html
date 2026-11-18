@@ -4,16 +4,16 @@
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta name="theme-color" content="black">
-  	<title>SolidLog</title>
-  	<link rel="stylesheet" type="text/css" href="LogStyles.css">
+  	<title>Log</title>
+  	<link rel="stylesheet" type="text/css" href="Log.css">
   	<link rel="manifest" href="manifest.json">
   	<script src='https://cdn.jsdelivr.net/npm/@inrupt/solid-client-authn-browser/dist/solid-client-authn.bundle.js'></script>
-  	<meta name="application-name" content="SolidLog">
+  	<meta name="application-name" content="Log">
 </head>
 <body>
 <header class="header">
     <div id="heading">
-        <span id="headerTitle">SolidLog</span>
+        <span id="headerTitle">Log</span>
         <button id="buttonSync" class="sync-button">
     </div>
 </header>
@@ -45,16 +45,10 @@
 		<button id="buttonNewTag" class="add-button"></button>
 	</div>
 </div>
-<!--div id='dataDialog' class='dialog'>
- 	<div id='dataMessage'></div>
-	<button id='saveButton' class='text-button'>SAVE</button>
-	<button id='loadButton' class='text-button'>LOAD</button>
-</div-->
 <div id='messageDialog' class='dialog'>
 	<div id='message'></div>
 </div>
-<input type="file" id="fileChooser" accept=".json" style="display: none">
 </main>
-<script src="LogScript.js" async></script>
+<script src="Log.js" async></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 {
-  "name": "SolidLog PWA",
-  "short_name": "SolidLog",
+  "name": "Log PWA",
+  "short_name": "Log",
   "icons": [
 	{
 		"src": "Log.png",
